@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1 className="main-title">Источники картинок</h1>
+      <h1 className="main-title">aviamasters</h1>
       <p style={{ textAlign: 'center', color: '#666', marginBottom: '20px' }}>
         🚀 Развернуто на GitHub Pages
       </p>
