@@ -21,7 +21,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("/sources.json")
+    fetch(`${import.meta.env.BASE_URL}sources.json`)
       .then((res) => {
         if (!res.ok) throw new Error("Ошибка загрузки данных");
         return res.json();
