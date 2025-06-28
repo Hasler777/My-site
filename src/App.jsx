@@ -34,9 +34,6 @@ function App() {
   return (
     <div className="container">
       <h1 className="main-title">aviamasters</h1>
-      <p style={{ textAlign: 'center', color: '#666', marginBottom: '20px' }}>
-        🚀 Развернуто на GitHub Pages
-      </p>
       {loading && <p>Загрузка...</p>}
       {error && <p style={{ color: 'red' }}>Ошибка: {error.message}</p>}
       <div className="cards-grid">
