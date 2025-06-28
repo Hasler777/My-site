@@ -4,7 +4,7 @@ import "./App.css";
 function SourceCard({ title, url, image }) {
   return (
     <div className="card">
-      <img src={image} alt={title} className="card-image" />
+      <img src={image} alt="" className="card-image" />
       <div className="card-content">
         <h2 className="card-title">{title}</h2>
         <a href={url} target="_blank" rel="noopener noreferrer" className="card-button">
